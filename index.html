@@ -98,7 +98,7 @@
   /* ---- wildlife ---- */
   .flock, .skulk {
     position: absolute;
-    left: 0; width: 100%;
+    left: 50%; width: 100vw; margin-left: -50vw;
     pointer-events: none;
   }
   .flock { top: -3%; height: 16%; }
@@ -119,8 +119,8 @@
   .fox .leg.b { animation-direction: alternate-reverse; }
   .fox .tail { transform-origin: 106px 50px; animation: wag 0.9s ease-in-out infinite alternate; }
   .fox .body { animation: trot 0.55s ease-in-out infinite alternate; }
-  @keyframes flyby  { from { left: -18%; } to { left: 104%; } }
-  @keyframes walkby { from { left: 104%; } to { left: -22%; } }
+  @keyframes flyby  { from { left: -25%; } to { left: 102%; } }
+  @keyframes walkby { from { left: 102%; } to { left: -25%; } }
   @keyframes bob    { from { transform: translateY(-4%); } to { transform: translateY(4%); } }
   @keyframes flap   { from { transform: rotate(-38deg); } to { transform: rotate(22deg); } }
   @keyframes step   { from { transform: rotate(-22deg); } to { transform: rotate(22deg); } }
